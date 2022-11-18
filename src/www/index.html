@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ready Test</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/web/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- application -->
+      <div class="app">
+        <div class="app__header">
+          <p class="app__header__title">
+            Leitor:
+            <strong id="nameReader" class="app__header__value"></strong>
+          </p>
+        </div>
+
+        <div id="drivers" class="app__line"></div>
+
+        <p class="app__data__label">
+          URL:
+          <strong id="tagValue" class="app__data__value"></strong>
+        </p>
+
+        <div id="card" class="app__card">
+          <div>
+            <p class="app__data__value">
+              <p id="urlCompare" class="app__data__label">
+                TAG: 
+              </p>
+            </p>
+          </div>
+          <div>
+            <p class="app__data__value">
+              <p id="compareValue" class="app__data__label">
+                URL: 
+              </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- scripts -->
+    <script src="/web/main.js" defer></script>
+  </body>
+</html>
